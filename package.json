@@ -1,5 +1,5 @@
 {
-  "name": "shr-benchmark",
+  "name": "xds-repo-benchmark",
   "version": "0.0.1",
   "description": "A simple benchmark tool for the SHR",
   "main": "reqGenerator.js",
@@ -11,5 +11,6 @@
   "dependencies": {
     "loadtest": "^1.2.6",
     "uuid": "^2.0.1"
-  }
+  },
+  "devDependencies": {}
 }
