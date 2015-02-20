@@ -1,0 +1,15 @@
+{
+  "name": "openmrs-shr-benchmark",
+  "version": "0.0.1",
+  "description": "A simple benchmark tool for the SHR",
+  "main": "reqGenerator.js",
+  "scripts": {
+    "test": "./run.sh"
+  },
+  "author": "rcrichton",
+  "license": "MIT",
+  "dependencies": {
+    "loadtest": "^1.2.6",
+    "uuid": "^2.0.1"
+  }
+}

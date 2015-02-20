@@ -1,0 +1,330 @@
+--MIMEBoundaryurn_uuid_DCD262C64C22DB97351256303951323
+Content-Type: application/xop+xml; charset=UTF-8; type="application/soap+xml"
+Content-Transfer-Encoding: binary
+Content-ID: <0.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
+
+<soap:Envelope xmlns="urn:ihe:iti:xds-b:2007" xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn1="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0" xmlns:urn2="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0" xmlns:urn3="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0">
+	<soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+		<wsa:Action xmlns="http://www.w3.org/2005/08/addressing" xmlns:env="http://www.w3.org/2003/05/soap-envelope" env:mustUnderstand="true">urn:ihe:iti:2007:ProvideAndRegisterDocumentSet-b</wsa:Action>
+		<wsa:To env:mustUnderstand="true" xmlns="http://www.w3.org/2005/08/addressing" xmlns:env="http://www.w3.org/2003/05/soap-envelope">https://192.168.1.80:5000/xdsrepository</wsa:To>
+		<wsa:MessageID>urn:uuid:DCD262C64C22DB97351256303951276</wsa:MessageID>
+		<wsa:ReplyTo env:mustUnderstand="true" xmlns="http://www.w3.org/2005/08/addressing" xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+			<wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+		</wsa:ReplyTo>
+	</soap:Header>
+	<soap:Body>
+		<ns4:ProvideAndRegisterDocumentSetRequest xmlns:ns2="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0" xmlns:ns3="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0" xmlns:ns4="urn:ihe:iti:xds-b:2007" xmlns:ns5="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:ns6="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0">
+			<ns3:SubmitObjectsRequest>
+				<ns5:RegistryObjectList>
+					<ns5:ExtrinsicObject id="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" mimeType="text/plain" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1">
+						<ns5:Slot name="creationTime">
+							<ns5:ValueList>
+								<ns5:Value>20130104</ns5:Value>
+							</ns5:ValueList>
+						</ns5:Slot>
+						<ns5:Slot name="languageCode">
+							<ns5:ValueList>
+								<ns5:Value>en-us</ns5:Value>
+							</ns5:ValueList>
+						</ns5:Slot>
+						<ns5:Slot name="serviceStartTime">
+							<ns5:ValueList>
+								<ns5:Value>201211150855</ns5:Value>
+							</ns5:ValueList>
+						</ns5:Slot>
+						<ns5:Slot name="serviceStopTime">
+							<ns5:ValueList>
+								<ns5:Value>201211150855</ns5:Value>
+							</ns5:ValueList>
+						</ns5:Slot>
+						<ns5:Slot name="sourcePatientId">
+							<ns5:ValueList>
+								<ns5:Value>55f81316303842c^^^&amp;1.3.6.1.4.1.21367.2009.1.2.300&amp;ISO</ns5:Value>
+							</ns5:ValueList>
+						</ns5:Slot>
+						<ns5:Slot name="sourcePatientInfo">
+							<ns5:ValueList>
+								<ns5:Value>PID-3|55f81316303842c^^^&amp;1.3.6.1.4.1.21367.2009.1.2.300&amp;ISO</ns5:Value>
+								<ns5:Value>PID-5|Patient^Mary^^^</ns5:Value>
+								<ns5:Value>PID-8|F</ns5:Value>
+							</ns5:ValueList>
+						</ns5:Slot>
+						<ns5:Name>
+							<ns5:LocalizedString value="Physical"/>
+						</ns5:Name>
+						<ns5:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" id="urn:uuid:700f61d9-2a3f-45ef-aae7-e0134fab2d54" nodeRepresentation="">
+							<ns5:Slot name="authorPerson">
+								<ns5:ValueList>
+									<ns5:Value>556677^^^^^^^^&amp;2.25.309768652999692686176651983274504471835.646.3.4&amp;ISO</ns5:Value>
+								</ns5:ValueList>
+							</ns5:Slot>
+							<ns5:Slot name="authorInstitution">
+								<ns5:ValueList>
+									<ns5:Value>Some Hospital^^^^^&amp;1.2.3.4.5.6.7.8.9.1789&amp;ISO^^^^45</ns5:Value>
+								</ns5:ValueList>
+							</ns5:Slot>
+						</ns5:Classification>
+						<ns5:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" id="urn:uuid:db1c5333-ed3c-41cc-b8ed-420ea2e15b6c" nodeRepresentation="51851-4">
+							<ns5:Slot name="codingScheme">
+								<ns5:ValueList>
+									<ns5:Value>2.16.840.1.113883.6.1</ns5:Value>
+								</ns5:ValueList>
+							</ns5:Slot>
+							<ns5:Name>
+								<ns5:LocalizedString charset="UTF-8" value="Workflow" xml:lang="en-us"/>
+							</ns5:Name>
+						</ns5:Classification>
+						<ns5:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" id="urn:uuid:1cd1c537-f495-4dfd-b1dc-2a82d3c61d36" nodeRepresentation="N">
+							<ns5:Slot name="codingScheme">
+								<ns5:ValueList>
+									<ns5:Value>2.16.840.1.113883.5.25</ns5:Value>
+								</ns5:ValueList>
+							</ns5:Slot>
+							<ns5:Name>
+								<ns5:LocalizedString value="Normal"/>
+							</ns5:Name>
+						</ns5:Classification>
+						<ns5:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" id="urn:uuid:c03fa039-d7bc-406f-8007-b74038d69cb5" nodeRepresentation="urn:ihe:rad:TEXT">
+							<ns5:Slot name="codingScheme">
+								<ns5:ValueList>
+									<ns5:Value>1.3.6.1.4.1.19376.1.2.3</ns5:Value>
+								</ns5:ValueList>
+							</ns5:Slot>
+							<ns5:Name>
+								<ns5:LocalizedString charset="UTF-8" value="urn:ihe:rad:TEXT" xml:lang="en-us"/>
+							</ns5:Name>
+						</ns5:Classification>
+						<ns5:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" id="urn:uuid:4f826f96-76fd-4663-a212-7b4a05e4f3e5" nodeRepresentation="281NR1301N">
+							<ns5:Slot name="codingScheme">
+								<ns5:ValueList>
+									<ns5:Value>2.16.840.1.113883.5.11</ns5:Value>
+								</ns5:ValueList>
+							</ns5:Slot>
+							<ns5:Name>
+								<ns5:LocalizedString value="Hospitals; General Acute Care Hospital; Rural"/>
+							</ns5:Name>
+						</ns5:Classification>
+						<ns5:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" id="urn:uuid:2c3b041a-2696-4333-8a68-e09e6ce70090" nodeRepresentation="General Medicine">
+							<ns5:Slot name="codingScheme">
+								<ns5:ValueList>
+									<ns5:Value>Connect-a-thon practiceSettingCodes</ns5:Value>
+								</ns5:ValueList>
+							</ns5:Slot>
+							<ns5:Name>
+								<ns5:LocalizedString value="General Medicine"/>
+							</ns5:Name>
+						</ns5:Classification>
+						<ns5:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" id="urn:uuid:e51e9cce-978c-40bf-a864-0f1da10425aa" nodeRepresentation="XTHM-WD TYPECODE">
+							<ns5:Slot name="codingScheme">
+								<ns5:ValueList>
+									<ns5:Value>1.3.6.1.4.1.21367.100.1</ns5:Value>
+								</ns5:ValueList>
+							</ns5:Slot>
+							<ns5:Name>
+								<ns5:LocalizedString value="History And Physical Note"/>
+							</ns5:Name>
+						</ns5:Classification>
+						<ns5:ExternalIdentifier id="urn:uuid:08fad65a-6eb0-4da3-99eb-1be837010150" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" registryObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" value="IHEGREEN-2087^^^&amp;1.3.6.1.4.1.21367.13.20.2000&amp;ISO">
+							<ns5:Name>
+								<ns5:LocalizedString value="XDSDocumentEntry.patientId"/>
+							</ns5:Name>
+						</ns5:ExternalIdentifier>
+						<ns5:ExternalIdentifier id="urn:uuid:ce486ffe-27a9-4eec-89d6-147fadb74870" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" registryObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" value="#{{docUniqueId}}">
+							<ns5:Name>
+								<ns5:LocalizedString value="XDSDocumentEntry.uniqueId"/>
+							</ns5:Name>
+						</ns5:ExternalIdentifier>
+					</ns5:ExtrinsicObject>
+					<ns5:RegistryPackage id="urn:uuid:c0149d06-7f32-4453-b28e-c4d5244c35ee">
+						<ns5:Slot name="submissionTime">
+							<ns5:ValueList>
+								<ns5:Value>20130104</ns5:Value>
+							</ns5:ValueList>
+						</ns5:Slot>
+						<ns5:Classification classificationScheme="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" classifiedObject="urn:uuid:c0149d06-7f32-4453-b28e-c4d5244c35ee" id="urn:uuid:63504f8a-9229-4307-bef5-14e8ee3e134c" nodeRepresentation="XTHM-WD TYPECODE">
+							<ns5:Slot name="codingScheme">
+								<ns5:ValueList>
+									<ns5:Value>1.3.6.1.4.1.21367.100.1</ns5:Value>
+								</ns5:ValueList>
+							</ns5:Slot>
+							<ns5:Name>
+								<ns5:LocalizedString value="History and Physical"/>
+							</ns5:Name>
+						</ns5:Classification>
+						<ns5:ExternalIdentifier id="urn:uuid:d8682df6-8518-4653-a5d3-8c4827f8970d" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" registryObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" value="IHEGREEN-2087^^^&amp;1.3.6.1.4.1.21367.13.20.2000&amp;ISO">
+							<ns5:Name>
+								<ns5:LocalizedString value="XDSSubmissionSet.patientId"/>
+							</ns5:Name>
+						</ns5:ExternalIdentifier>
+						<ns5:ExternalIdentifier id="urn:uuid:c82cc901-fa60-4c48-ac86-5c6b475a5d04" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" registryObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" value="#{{subUniqueId}}">
+							<ns5:Name>
+								<ns5:LocalizedString value="XDSSubmissionSet.uniqueId"/>
+							</ns5:Name>
+						</ns5:ExternalIdentifier>
+						<ns5:ExternalIdentifier id="urn:uuid:3ce33c19-e23d-46b6-b506-ca44dac12f8b" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" registryObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961" value="1.3.6.1.4.1.21367.2010.1.2">
+							<ns5:Name>
+								<ns5:LocalizedString value="XDSSubmissionSet.sourceId"/>
+							</ns5:Name>
+						</ns5:ExternalIdentifier>
+					</ns5:RegistryPackage>
+					<ns5:Classification classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" classifiedObject="urn:uuid:c0149d06-7f32-4453-b28e-c4d5244c35ee" id="urn:uuid:f1c82f24-d91d-4945-8a63-81d06f3ee995"/>
+					<ns5:Association associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" id="urn:uuid:c9abae3c-688f-4505-a136-bd99ca5019fb" sourceObject="urn:uuid:c0149d06-7f32-4453-b28e-c4d5244c35ee" targetObject="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961">
+						<ns5:Slot name="SubmissionSetStatus">
+							<ns5:ValueList>
+								<ns5:Value>Original</ns5:Value>
+							</ns5:ValueList>
+						</ns5:Slot>
+					</ns5:Association>
+				</ns5:RegistryObjectList>
+			</ns3:SubmitObjectsRequest>
+            <ns4:Document id="urn:uuid:05b0de7f-cb5e-41dc-9a91-62202f5f0961">
+                <xop:Include href="cid:1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org" xmlns:xop="http://www.w3.org/2004/08/xop/include"/>
+            </ns4:Document>
+		</ns4:ProvideAndRegisterDocumentSetRequest>
+	</soap:Body>
+</soap:Envelope>
+--MIMEBoundaryurn_uuid_DCD262C64C22DB97351256303951323
+Content-Type: text/xml
+Content-Transfer-Encoding: binary
+Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" classCode="DOCCLIN" moodCode="EVN" xmlns="urn:hl7-org:v3">
+  <realmCode code="UV" />
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040" />
+  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.18.1.2" />
+  <id root="B823FAEC-F626-44C6-944D-B8755DA73665" />
+  <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HISTORY OF IMMUNIZATIONS" />
+  <title language="en-US">Immunization History</title>
+  <effectiveTime value="20141126194551.678-0500" />
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" displayName="normal" />
+  <languageCode code="en-US" />
+  <recordTarget typeCode="RCT" contextControlCode="OP">
+    <patientRole classCode="PAT">
+      <id root="1.3.6.1.4.1.33349.3.1.3.201203.2.0.0" extension="117" />
+      <addr nullFlavor="NI" />
+      <patient classCode="PSN" determinerCode="INSTANCE">
+        <name nullFlavor="NI" />
+        <administrativeGenderCode code="M" />
+        <birthTime value="20140810" />
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author typeCode="AUT" contextControlCode="AP">
+    <time value="20141126194551.697-0500" />
+    <assignedAuthor classCode="ASSIGNED">
+      <id root="1.3.6.1.4.1.21367.2009.1.2.203" extension="+12894568705" />
+      <addr nullFlavor="NI" />
+      <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>Justin</name>
+      </assignedPerson>
+      <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="6CAEA84D-A711-4BA1-8B02-A332AE130DF8" />
+        <name>SMSGATEWAY</name>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian typeCode="CST">
+    <assignedCustodian classCode="ASSIGNED">
+      <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="1.2.3.4.5.6.76.5.3.3.3443" extension="EHRVIEWER" />
+        <name>EHR VIEWER</name>
+        <telecom value="http://localhost:49707/SimpleSmsTwilio/IncomingMessage?from=+12894568705&amp;to=403-201-2044&amp;body=1" />
+        <addr use="PHYS">
+          <streetAddressLine>123 Main Street West</streetAddressLine>
+          <streetAddressLine>Ste 122</streetAddressLine>
+          <city>Hamilton</city>
+          <state>ON</state>
+          <country>CA</country>
+          <postalCode>L8K5N1</postalCode>
+        </addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <component typeCode="COMP" contextConductionInd="true">
+    <structuredBody classCode="DOCBODY" moodCode="EVN">
+      <component typeCode="COMP" contextConductionInd="true">
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.1.6" />
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.23" />
+          <id root="A2B39996-A1C7-4E1B-8A95-D1EC0DCA28B0" />
+          <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HISTORY OF IMMUNIZATIONS" />
+          <title language="en-US">Immunizations</title>
+          <text language="en-US"><list><item ID="idb69d8">2014-Nov-26 - Oral Polio Vaccine via Swallow, Oral</item><item ID="id0827e">2014-Nov-26 - Bacillus Calmette-Guerin via injection, subcutaneous</item></list></text>
+          <entry typeCode="COMP" contextConductionInd="true">
+            <substanceAdministration classCode="SBADM" moodCode="EVN">
+              <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.12" />
+              <templateId root="2.16.840.1.113883.10.20.1.24" />
+              <id root="68687B13-C59D-458D-A373-BFC037DA1F56" />
+              <code code="IMMUNIZ" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode" displayName="Immunization" />
+              <text mediaType="text/plain">
+                <reference value="#idb69d8" />
+              </text>
+              <statusCode code="completed" />
+              <effectiveTime xsi:type="IVL_TS" value="20141126194551.351-0500" />
+              <routeCode code="PO" codeSystem="2.16.840.1.113883.5.112" codeSystemName="Route Of Administration" displayName="Swallow, Oral" />
+              <doseQuantity value="1" />
+              <consumable typeCode="CSM">
+                <manufacturedProduct classCode="MANU">
+                  <manufacturedMaterial classCode="MMAT" determinerCode="KIND">
+                    <code code="02" codeSystem="2.16.840.1.113883.6.59" codeSystemName="HL7CVX" displayName="Oral Polio Vaccine" />
+                    <name>Oral Polio Vaccine</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" contextConductionInd="true">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.1.46" />
+                  <code code="30973-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Dose 
+
+number" />
+                  <statusCode code="completed" />
+                  <value xsi:type="INT" value="1" />
+                </observation>
+              </entryRelationship>              
+            </substanceAdministration>
+          </entry>
+<entry typeCode="COMP" contextConductionInd="true">
+            <substanceAdministration classCode="SBADM" moodCode="EVN">
+              <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.12" />
+              <templateId root="2.16.840.1.113883.10.20.1.24" />
+              <id root="1492D74E-287D-4C75-86EB-27827F38DFC4" />
+              <code code="IMMUNIZ" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode" 
+
+displayName="Immunization" />
+              <text mediaType="text/plain">
+                <reference value="#id513e8" />
+              </text>
+              <statusCode code="completed" />
+              <effectiveTime xsi:type="IVL_TS" value="20141126183432.072-0500" />
+              <routeCode code="SQ" codeSystem="2.16.840.1.113883.5.112" codeSystemName="Route Of Administration" 
+
+displayName="injection, subcutaneous" />
+              <doseQuantity value="1" />
+              <consumable typeCode="CSM">
+                <manufacturedProduct classCode="MANU">
+                  <manufacturedMaterial classCode="MMAT" determinerCode="KIND">
+                    <code code="19" codeSystem="2.16.840.1.113883.6.59" codeSystemName="HL7CVX" 
+displayName="Bacillus Calmette Guerin"/>
+                    <name>Test</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" contextConductionInd="true">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.1.46" />
+                  <code code="30973-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Dose 
+
+number" />
+                  <statusCode code="completed" />
+                  <value xsi:type="INT" value="1" />
+                </observation>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>          
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>
+--MIMEBoundaryurn_uuid_DCD262C64C22DB97351256303951323--

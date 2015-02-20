@@ -1,0 +1,24 @@
+------=_Part_19_1304527513.1422556792807
+Content-Type: application/xop+xml; charset=utf-8; type="application/soap+xml"
+
+
+
+<env:Envelope
+  xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header
+    xmlns:wsa="http://www.w3.org/2005/08/addressing">
+    <wsa:To env:mustUnderstand="true">http://www.w3.org/2005/08/addressing/anonymous</wsa:To>
+    <wsa:Action>urn:ihe:iti:2007:ProvideAndRegisterDocumentSet-bResponse</wsa:Action>
+    <wsa:MessageID>urn:uuid:0b3d8057-4274-4587-906f-b42b21730bbc</wsa:MessageID>
+    <wsa:RelatesTo>urn:uuid:45ec0d66-25ec-701c-e5ee-a0a8cd99faca</wsa:RelatesTo>
+  </env:Header>
+  <env:Body>
+    <ns3:RegistryResponse
+      xmlns:ns3="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0"
+      xmlns:ns2="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0"
+      xmlns:ns4="urn:ihe:iti:xds-b:2007"
+      xmlns:ns5="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0"
+      xmlns:ns6="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" status="urn:oasis:names:tc:ebxml-regrep:ResponseStatusType:Success"/>
+    </env:Body>
+  </env:Envelope>
+------=_Part_19_1304527513.1422556792807--
