@@ -9,6 +9,8 @@ for (var i = 0; i < filesInDir.length; i++) {
   }
 }
 
+console.log('Found ' + bodies.length + ' different documents to post...');
+
 module.exports = function(requestId) {
   var randIndex = Math.floor(Math.random() * bodies.length);
   var body = bodies[randIndex];

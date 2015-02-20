@@ -1,5 +1,5 @@
 {
-  "name": "openmrs-shr-benchmark",
+  "name": "shr-benchmark",
   "version": "0.0.1",
   "description": "A simple benchmark tool for the SHR",
   "main": "reqGenerator.js",
