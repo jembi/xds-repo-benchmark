@@ -1,7 +1,7 @@
 {
   "name": "xds-repo-benchmark",
   "version": "0.0.1",
-  "description": "A simple benchmark tool for the SHR",
+  "description": "A simple benchmark tool for the an xds.b repository",
   "main": "reqGenerator.js",
   "scripts": {
     "test": "./run.sh"
