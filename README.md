@@ -16,4 +16,4 @@ Run the test suite:
 
 `npm test`
 
-The benchmark tool will radonly post any file starting with 'pnr-' to the SHR. You may add more docuemnt type but just adding more files to the root directory. Note: these files must contain full MTOM headers. Also, the tool will replace any instance of '#{{docUniqueId}}' and '#{{subUniqueId}}' with a unqiue OID using uuids. Use this to get documentUniqueIds and submissionSetUniqueIds replaced for each request.
+The benchmark tool will radonly post any file starting with 'pnr-' to the SHR. You may add more docuemnt type but just adding more files to the root directory. Note: these files must contain full MTOM headers. Also, the tool will replace any instance of '#{{docUniqueId}}', '#{{subUniqueId}}' and #{{sourcePatId}} with a unqiue OID using uuids. Use this to get documentUniqueIds, submissionSetUniqueIds and sourcePatientIds replaced for each request.

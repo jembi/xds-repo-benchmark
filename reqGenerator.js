@@ -17,6 +17,7 @@ module.exports = function(requestId) {
 
   body = body.replace(/#{{docUniqueId}}/g, '1.25.' + uuid.v4());
   body = body.replace(/#{{subUniqueId}}/g, '1.25.' + uuid.v4());
+  body = body.replace(/#{{sourcePatId}}/g, '1.25.' + uuid.v4());
 
   return body;
 };
