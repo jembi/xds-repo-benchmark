@@ -1,10 +1,10 @@
 {
   "name": "xds-repo-benchmark",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple benchmark tool for the an xds.b repository",
   "main": "reqGenerator.js",
   "scripts": {
-    "test": "./run.sh"
+    "test": "./run.sh -c 5 -t 20"
   },
   "author": "rcrichton",
   "license": "MIT",
