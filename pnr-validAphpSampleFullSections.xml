@@ -434,7 +434,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 						<!-- History -->
 						<organizer classCode="CLUSTER" moodCode="EVN">
 							<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13.5.1' />
-							<id root='1.2.3.2.43.2.232' extension='123912983' />
+							<id root='1.2.3.2.43.2.232' extension='#{{randomize}}' />
 							<code code='118185001' displayName='Pregnancy Finding'
 								codeSystem='2.16.840.1.113883.6.96' codeSystemName='SNOMED CT' />
 							<statusCode code='completed' />
@@ -445,7 +445,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13' />
 									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.5" />
-									<id root='1' extension='674362' />
+									<id root='1' extension='#{{randomize}}' />
 									<code code='11636-8' displayName='BIRTHS LIVE (REPORTED)'
 										codeSystem='2.16.840.1.113883.6.1' codeSystemName='LOINC' />
 									<statusCode code='completed' />
@@ -460,7 +460,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13' />
 									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.5" />
-									<id root='1' extension='67436435646453' />
+									<id root='1' extension='#{{randomize}}' />
 									<code code='11612-9' displayName='ABORTIONS (REPORTED)'
 										codeSystem='2.16.840.1.113883.6.1' codeSystemName='LOINC' />
 									<statusCode code='completed' />
@@ -474,7 +474,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 								<observation classCode="OBS" moodCode="EVN">
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13' />
 									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.5" />
-									<id root='1' extension='7567567565' />
+									<id root='1' extension='#{{randomize}}' />
 									<code code='57062-2' displayName='STILLBORN BIRTHS'
 										codeSystem='2.16.840.1.113883.6.1' codeSystemName='LOINC' />
 									<statusCode code='completed' />
@@ -493,7 +493,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 						<observation classCode="OBS" moodCode="EVN">
 							<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13' />
 							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.5" />
-							<id root='1' extension='867456765456452' />
+							<id root='1' extension='#{{randomize}}' />
 							<code code='49051-6' displayName='GESTATIONAL AGE'
 								codeSystem='2.16.840.1.113883.6.1' codeSystemName='LOINC' />
 							<statusCode code='completed' />
@@ -508,7 +508,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 						<observation classCode="OBS" moodCode="EVN">
 							<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13' />
 							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.5" />
-							<id root='1' extension='6456456546453' />
+							<id root='1' extension='#{{randomize}}' />
 							<code code='45371-2' displayName='MULTIPLE PREGNANCY'
 								codeSystem='2.16.840.1.113883.6.1' codeSystemName='LOINC' />
 							<statusCode code='completed' />
@@ -524,7 +524,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 					<templateId root='2.16.840.1.113883.10.20.1.15' />
 					<templateId root='1.3.6.1.4.1.19376.1.5.3.1.3.16' />
 					<!-- Required Social History Section content -->
-					<id root='1' extension='75647567567562' />
+					<id root='1' extension='#{{randomize}}' />
 					<code code='29762-2' displayName='SOCIAL HISTORY' codeSystem='2.16.840.1.113883.6.1'
 						codeSystemName='LOINC' />
 					<title>boink</title>
@@ -538,7 +538,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 				<section>
 					<templateId root='2.16.840.1.113883.10.20.1.4' />
 					<!-- Required Coded Family Medical History Section content -->
-					<id root='1' extension='865868672' />
+					<id root='1' extension='#{{randomize}}' />
 					<code code='10157-6' displayName='HISTORY OF FAMILY MEMBER DISEASES'
 						codeSystem='2.16.840.1.113883.6.1' codeSystemName='LOINC' />
 					<title>boink</title>
@@ -552,7 +552,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 				<section>
 					<templateId root='1.3.6.1.4.1.19376.1.5.3.1.3.18' />
 					<!-- Required Review of Systems Section content -->
-					<id root='1' extension='29879768987' />
+					<id root='1' extension='#{{randomize}}' />
 					<code code='10187-3' displayName='REVIEW OF SYSTEMS'
 						codeSystem='2.16.840.1.113883.6.1' codeSystemName='LOINC' />
 					<text>
@@ -565,7 +565,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 				<section>
 					<templateId root='1.3.6.1.4.1.19376.1.5.3.1.3.24' />
 					<!-- Required Physical Examination Section content -->
-					<id root='1' extension='96789782' />
+					<id root='1' extension='#{{randomize}}' />
 					<code code='29545-1' displayName='PHYSICAL EXAMINATION'
 						codeSystem='2.16.840.1.113883.6.1' codeSystemName='LOINC' />
 					<text>
@@ -618,7 +618,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 							<templateId root="2.16.840.1.113883.10.20.1.32" />
 							<templateId root="2.16.840.1.113883.10.20.1.35" />
 							<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13.1' />
-							<id root="da19e063-d74b-4924-9a50-ab5207e290a2" />
+							<id root="#{{randomize}}" />
 							<code code="46680005" codeSystem="2.16.840.1.113883.6.96"
 								codeSystemName="SNOMED_CT" displayName="Vital Signs" />
 							<statusCode code="completed" />
@@ -628,7 +628,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13' />
 									<templateId root='2.16.840.1.113883.10.20.1.31' />
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13.2' />
-									<id root="7e28d9b1-3732-4dad-ad1c-aed5c9806c1c" />
+									<id root="#{{randomize}}" />
 									<code code="3141-9" codeSystem="2.16.840.1.113883.6.1"
 										codeSystemName="LOINC" displayName="BODY WEIGHT (MEASURED)" />
 									<text>
@@ -645,7 +645,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 							<templateId root="2.16.840.1.113883.10.20.1.32" />
 							<templateId root="2.16.840.1.113883.10.20.1.35" />
 							<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13.1' />
-							<id root="b9bd5f19-9042-40eb-b36e-306e528a6b0c" />
+							<id root="#{{randomize}}" />
 							<code code="46680005" codeSystem="2.16.840.1.113883.6.96"
 								codeSystemName="SNOMED_CT" displayName="Vital Signs" />
 							<statusCode code="completed" />
@@ -655,7 +655,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13' />
 									<templateId root='2.16.840.1.113883.10.20.1.31' />
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13.2' />
-									<id root="22bee931-f51f-4033-bf81-f5f3185b0196" />
+									<id root="#{{randomize}}" />
 									<code code="8302-2" codeSystem="2.16.840.1.113883.6.1"
 										codeSystemName="LOINC" displayName="BODY HEIGHT (MEASURED)" />
 									<text>
@@ -672,7 +672,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 							<templateId root="2.16.840.1.113883.10.20.1.32" />
 							<templateId root="2.16.840.1.113883.10.20.1.35" />
 							<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13.1' />
-							<id root="6f7e00e1-d60f-4efd-81fc-8c8db7f19a48" />
+							<id root="#{{randomize}}" />
 							<code code="46680005" codeSystem="2.16.840.1.113883.6.96"
 								codeSystemName="SNOMED_CT" displayName="Vital Signs" />
 							<statusCode code="completed" />
@@ -682,7 +682,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13' />
 									<templateId root='2.16.840.1.113883.10.20.1.31' />
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13.2' />
-									<id root="1bdc29aa-9b62-4d29-8036-fbf205a13129" />
+									<id root="#{{randomize}}" />
 									<code code="8480-6" codeSystem="2.16.840.1.113883.6.1"
 										codeSystemName="LOINC" displayName="INTRAVASCULAR SYSTOLIC" />
 									<text>
@@ -700,7 +700,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 							<templateId root="2.16.840.1.113883.10.20.1.35" />
 							<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13.1' />
 
-							<id root="12b8f398-bb9d-4d28-b9b5-780d1d633007" />
+							<id root="#{{randomize}}" />
 							<code code="46680005" codeSystem="2.16.840.1.113883.6.96"
 								codeSystemName="SNOMED_CT" displayName="Vital Signs" />
 							<statusCode code="completed" />
@@ -710,7 +710,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13' />
 									<templateId root='2.16.840.1.113883.10.20.1.31' />
 									<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.13.2' />
-									<id root="f437b712-298a-4706-8d69-8e9f17688e57" />
+									<id root="#{{randomize}}" />
 									<code code="8462-4" codeSystem="2.16.840.1.113883.6.1"
 										codeSystemName="LOINC" displayName="INTRAVASCULAR DIASTOLIC" />
 									<text>
@@ -756,7 +756,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 							<templateId root='2.16.840.1.113883.10.20.1.27' />
 							<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.5.1' />
 							<templateId root='1.3.6.1.4.1.19376.1.5.3.1.4.5.3' />
-							<id root='1.2.3.4.5.3.4.5.4.6' extension='4534' />
+							<id root='1.2.3.4.5.3.4.5.4.6' extension='#{{randomize}}' />
 							<code nullFlavor='NA' />
 							<statusCode code='active' />
 							<effectiveTime>
@@ -767,7 +767,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 									negationInd="false">
 									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
 									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.6" />
-									<id root="7aea1b00-b972-48e8-acb6-adc0e9cef77b" />
+									<id root="#{{randomize}}" />
 									<code code="ALG" codeSystem="2.16.840.1.113883.5.4"
 										codeSystemName="ObservationIntoleranceType" />
 									<statusCode code="completed" />
@@ -791,7 +791,7 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 										<observation classCode="OBS" moodCode="EVN"
 											negationInd="false">
 											<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
-											<id root="853845cb-9f28-4185-a452-96153137e59b" />
+											<id root="#{{randomize}}" />
 											<code code="PROBLEM" codeSystem="1.3.6.1.4.1.19376.1.5.3.2"
 												codeSystemName="IHEActCode" />
 											<statusCode code="completed" />
@@ -815,17 +815,12 @@ Content-ID: <1.urn:uuid:DCD262C64C22DB97351256303951324@apache.org>
 												codeSystemName='ObservationValue' />
 										</observation>
 									</entryRelationship>
-
 								</observation>
 							</entryRelationship>
 						</act>
-
 					</entry>
 				</section>
 			</component>
-
-
-
 		</structuredBody>
 	</component>
 </ClinicalDocument>
